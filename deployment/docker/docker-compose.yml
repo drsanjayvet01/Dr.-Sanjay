@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  livestock-app:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app
+      - ./backups:/app/backups
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    container_name: livestock-registry
+    restart: unless-stopped
