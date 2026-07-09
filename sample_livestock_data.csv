@@ -1,0 +1,6 @@
+Tag ID,Tagging Date,Species,Breed,Animal Sex,Animal Status,Pregnancy Status,Milking Status,Owner Name,Aadhaar No.,Owner Village,Owner Mobile No,Other Details
+L001,2024-01-15,Cattle,Gir,Female,Active,Y,In Milk,Rajesh Kumar,123456789012,Panchpur,9876543210,Vaccinated on 2024-01-10
+L002,2024-01-20,Buffalo,Murrah,Female,Active,N,Dry,Priya Singh,234567890123,Nandgaon,9876543211,Loan approved
+L003,2024-02-05,Goat,Non-descript,Male,Active,NA,NA,Amit Patel,345678901234,Panchpur,9876543212,Healthy condition
+L004,2024-02-10,Sheep,Deccani,Female,Active,Y,NA,Sunita Devi,456789012345,Nandgaon,9876543213,Ready for breeding
+L005,2024-02-15,Cattle,Sahiwal,Female,Active,N,In Milk,Vikram Singh,567890123456,Panchpur,9876543214,Premium breed
